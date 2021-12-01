@@ -31,5 +31,7 @@ for i in agentes:
         boneco = i
         break
 
-pick_valorant(boneco)
-
+try:
+    pick_valorant(boneco)
+except:
+    print('você nao tem esse agente')
