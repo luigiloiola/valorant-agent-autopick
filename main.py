@@ -15,7 +15,6 @@ viper=('viper',651,1005)
 raze = ('raze',1142,1004)
 
 agentes = [chamber, cypher, jett, kayo, ekko, reyna, sage, sova, viper, raze]
-print(agentes)
 
 def pick_valorant(agente=jett):
     pos = imagesearch_loop(r'C:\Users\Desktop\OneDrive\Imagens\Capturas de tela\cypher.png',1)
